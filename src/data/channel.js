@@ -371,6 +371,11 @@ const movieSpoilers = [
         url: "https://www.youtube.com/@jordoror",
         name: "จดอ. JUSTดูIT."
     },
+    {
+        img: "https://yt3.googleusercontent.com/ytc/AL5GRJWJYY6iyAQfyl1tADafXTcEqaAWVAC3QuXl1RthUg=s176-c-k-c0x00ffffff-no-rj",
+        url: "https://www.youtube.com/@GamingFollow",
+        name: "Gaming Follow"
+    },
 ]
 
 const comic = [
