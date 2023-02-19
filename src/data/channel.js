@@ -2,7 +2,8 @@ const lists = [
     { id: "tcp", title: "Tech / ComputerProgramming" },
     { id: "ms", title: "Movie Spoilers" },
     { id: "cm", title: "Comic / Manga" },
-    // { id: 4, title: "BoxIcons" },
+    { id: "ed", title: "Education" },
+    { id: "tr", title: "Travel" },
   ];
 
 
@@ -460,4 +461,85 @@ const comic = [
     },
 ]
 
-export {lists, tech, movieSpoilers, comic }
+const education = [
+    {
+        img: "https://yt3.googleusercontent.com/9gWX1kxtjdOra9pps4Wi7V4dJdcrAnm6lFKlCrFNAEK0nUKW6paPk74Vkqa_MPANRdPAfwGC=s176-c-k-c0x00ffffff-no-rj",
+        url: "https://www.youtube.com/@psinetutor",
+        name: "กวดวิชาพี่ส่าย"
+    },
+    {
+        img: "https://yt3.googleusercontent.com/ytc/AL5GRJUiiQZUbj6bz7cW7geundQf8NIG9jiaSHkSzUqnNw=s176-c-k-c0x00ffffff-no-rj",
+        url: "https://www.youtube.com/@NestleSchoolThailand",
+        name: "Nestle School Thailand"
+    },
+    {
+        img: "https://yt3.googleusercontent.com/ytc/AL5GRJUYT7beOpZSDk_8CVhnU97j2ySLDvuqBfpV5XDkMg=s176-c-k-c0x00ffffff-no-rj",
+        url: "https://www.youtube.com/@Trueplookpanyamedia",
+        name: "TruePlookpanya Channel"
+    },
+    {
+        img: "https://yt3.googleusercontent.com/ytc/AL5GRJUWEkMkxleSNdNKbFmuhJOPcY68LdPg4DtnhKaQow=s176-c-k-c0x00ffffff-no-rj",
+        url: "https://www.youtube.com/@krupbasibiology8281",
+        name: "Krupbas iBiology"
+    },
+    {
+        img: "https://yt3.googleusercontent.com/o1uH-iT7PP1R0b5cGOesyLBnEtBvzUY7xd8vhnqVXGLuVq7vBGQMj828SW0Fn-Botw2OqXvfjw=s176-c-k-c0x00ffffff-no-rj",
+        url: "https://www.youtube.com/@KruDewTOEIC",
+        name: "ติวสอบ TOEIC กับ ครูดิว"
+    },
+    {
+        img: "https://yt3.googleusercontent.com/ytc/AL5GRJUNFxRUeJQWi0HPce1V3xo8Dz_d3IkX3mUMLotX=s176-c-k-c0x00ffffff-no-rj",
+        url: "https://www.youtube.com/@birth1108",
+        name: "เคมีครูพี่เบิร์ด"
+    },
+    {
+        img: "https://yt3.googleusercontent.com/ytc/AL5GRJWj1tsX9SwyfK2zyBhzrx5AooHYAjhEgpvUOwTSSg=s176-c-k-c0x00ffffff-no-rj",
+        url: "https://www.youtube.com/@OrendaTutor",
+        name: "OrendaTutor"
+    },
+    {
+        img: "https://yt3.googleusercontent.com/BLHX3_n87apJDYAWx3OfK24HmpKFNc4chEHQhEIAzBKMDHaF4cTGPS7mtlcso1Hyl0gjaSxcCw=s176-c-k-c0x00ffffff-no-rj",
+        url: "https://www.youtube.com/@tutormac1513",
+        name: "tutormac"
+    },
+    {
+        img: "https://yt3.googleusercontent.com/wabIbL-xSsuHHdtvTzVsM_nJuQ-jh58O3CtP7C4O_W7-66r9X_XmLCHA1W2cVtZ2JqKLh2nO=s176-c-k-c0x00ffffff-no-rj",
+        url: "https://www.youtube.com/@NockAcademy",
+        name: "NockAcademy -ไลฟ์สอนสด อันดับ1-"
+    },
+]
+
+const travel = [
+    {
+        img: "https://yt3.googleusercontent.com/ytc/AL5GRJW_viY6_0KnEOQ0VpR2RjYgSGnKnsUzl3P9STsr=s176-c-k-c0x00ffffff-no-rj",
+        url: "https://www.youtube.com/@RUBSARBproduction",
+        name: "RUBSARB production"
+    },
+    {
+        img: "https://yt3.googleusercontent.com/ytc/AL5GRJXDsOOCI_iwjhPtM_LiYI9-1IA-YxnIwnWNKuIluw=s176-c-k-c0x00ffffff-no-rj",
+        url: "https://www.youtube.com/@MayyRchannel",
+        name: "Mayy R"
+    },
+    {
+        img: "https://yt3.googleusercontent.com/ytc/AL5GRJVWiTa7EM6FO-dtzLu50HHm1eKgzl0jk9PBU8JSrg=s176-c-k-c0x00ffffff-no-rj",
+        url: "https://www.youtube.com/@mint.iroamalone",
+        name: "I Roam Alone"
+    },
+    {
+        img: "https://yt3.googleusercontent.com/ytc/AL5GRJWAeDf6bmHoyaft5cJJpyLtf1t_T-HnNN3n_oga=s176-c-k-c0x00ffffff-no-rj",
+        url: "https://www.youtube.com/@YESIGO",
+        name: "YES I GO"
+    },
+    {
+        img: "https://yt3.googleusercontent.com/ytc/AL5GRJX1jMTr3J5drmed5RF0J4dzEWegVzOaSeRwB-serg=s176-c-k-c0x00ffffff-no-rj",
+        url: "https://www.youtube.com/@asapapailong",
+        name: "อาสาพาไปหลง - asapapailong"
+    },
+    {
+        img: "https://yt3.googleusercontent.com/ytc/AL5GRJV7c34YTzXWRha-kqt_U8maKyOWvsuWfbT3YslX=s176-c-k-c0x00ffffff-no-rj",
+        url: "https://www.youtube.com/@beersosdiary",
+        name: "Beersos Diary"
+    },
+]
+
+export {lists, tech, movieSpoilers, comic, education, travel }

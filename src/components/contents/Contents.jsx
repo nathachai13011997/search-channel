@@ -1,6 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import { lists, tech, movieSpoilers, comic } from "../../data/channel";
+import { lists, tech, movieSpoilers, comic, education, travel } from "../../data/channel";
 import "./Contents.sass";
 import { BsYoutube } from "react-icons/bs";
 
@@ -22,6 +22,10 @@ const showContent = (contactId, name) => {
     return movieSpoilers;
   } else if (contactId?.toString() === "cm") {
     return comic;
+  }else if(contactId?.toString() === "ed"){
+    return education
+  }else if(contactId?.toString() === "tr"){
+    return travel
   }
   return [];
 };
