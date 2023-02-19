@@ -365,6 +365,11 @@ const movieSpoilers = [
         url: "https://www.youtube.com/@longsit1458",
         name: "นั่งยาว : longsit"
     },
+    {
+        img: "https://yt3.googleusercontent.com/HyHHtY1vyYjDc-0sLZEuxZJEgOFOOIGi5lyczP7g3FsLv96V45jUiWClgtSLsq8CoKZUsf-EvA=s176-c-k-c0x00ffffff-no-rj",
+        url: "https://www.youtube.com/@jordoror",
+        name: "จดอ. JUSTดูIT."
+    },
 ]
 
 const comic = [
