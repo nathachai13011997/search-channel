@@ -1,0 +1,63 @@
+@use 'variables'
+
+.pt3
+    padding-top: variables.$space-3
+
+.p2
+    padding: variables.$space-2
+
+.p3
+    padding: variables.$space-3
+
+.px2
+    padding-left: variables.$space-2
+    padding-right: variables.$space-2
+
+.py1
+    padding-top: 0.5rem
+    padding-bottom: 0.5rem
+
+a
+    text-decoration: none
+
+.rounded
+    border-radius: variables.$border-radius-md
+
+h1.main
+    font-size: 2.2rem
+    padding: 0
+
+h1, h2, h3, h4, h5, h6, p
+    font-weight: 400
+    margin-top: 0
+    margin-bottom: variables.$space-2
+    padding-top: variables.$space-1
+
+@media (max-width: 719px)
+    .sidebar
+        padding-top: variables.$space-2 !important
+
+    .container > .p3
+        padding: variables.$space-2
+
+    .container, .sidebar
+        min-height: auto
+        width: 100%
+        max-width: 100%
+        position: relative
+        padding: 0
+
+    .sidebar-links
+        display: none
+    
+    .brand
+        padding: 0 variables.$space-2
+        display: flex
+        align-items: center
+        justify-content: right
+    
+    .brand .brand-navmenu
+        display: block
+    
+    .sidebar-links.action
+        display: block
