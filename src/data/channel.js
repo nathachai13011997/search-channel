@@ -448,6 +448,11 @@ const comic = [
         url: "https://www.youtube.com/@HEROIIVERSE",
         name: "HERO II VERSE"
     },
+    {
+        img: "https://yt3.googleusercontent.com/Oqf91vtrqUPbfnn1DONO0knnrUHupFA-KWCL8Tx5JOPyv9XFbSbdmLpTiorkO8-VkNqj354idA=s176-c-k-c0x00ffffff-no-rj",
+        url: "https://www.youtube.com/@ANIDEX_TH",
+        name: "Anidex - อนิเดก"
+    },
 ]
 
 export {lists, tech, movieSpoilers, comic }
