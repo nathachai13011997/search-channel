@@ -1,6 +1,6 @@
-import React, { useState } from 'react'
+import React, { useState } from "react";
 import { Link, useParams, useNavigate } from "react-router-dom";
-import { lists } from '../../data/channel'
+import { lists } from "../../data/channel";
 import "./Sidebar.sass";
 
 // const list = [
@@ -13,23 +13,37 @@ import "./Sidebar.sass";
 const Sidebar = () => {
   const { contactId } = useParams();
   const navigate = useNavigate();
-  const [action, setAction] = useState(false)
+  const [action, setAction] = useState(false);
 
   const handleInputSearch = (e) => {
-    e?.target?.value ? navigate(`content/search/${e?.target?.value}`) : navigate(`content/search`)
-    setAction(false)
-  }
+    e?.target?.value
+      ? navigate(`content/search/${e?.target?.value}`)
+      : navigate(`content/search`);
+    setAction(false);
+  };
 
   const handleChangInputSearch = (e) => {
-    const path = e.target.value ? `content/search/${e.target.value}` : `content/search`
-    navigate(path)
-    setAction(false)
-  }
+    const path = e.target.value
+      ? `content/search/${e.target.value}`
+      : `content/search`;
+    navigate(path);
+    setAction(false);
+  };
 
   const fnChangeAction = () => {
-    setAction(!action)
-  }
+    setAction(!action);
+  };
 
+  const dataLists = lists?.sort((a, b) =>
+    a?.title?.toLowerCase() > b?.title?.toLowerCase() ? 1 : -1
+  );
+
+  // dataLists?.push({
+  //   id: "cc",
+  //   title: "คำแนะนำ"
+  // })
+
+  // console.log("dataLists", dataLists)
 
   return (
     <div>
@@ -37,10 +51,11 @@ const Sidebar = () => {
         <div className="brand">
           <div className="brand-navmenu">
             <a></a>
-            <button className={`menu ${action && "action"}`} onClick={fnChangeAction}>
-              <div>
-                Menu
-              </div>
+            <button
+              className={`menu ${action && "action"}`}
+              onClick={fnChangeAction}
+            >
+              <div>Menu</div>
             </button>
           </div>
         </div>
@@ -53,21 +68,19 @@ const Sidebar = () => {
           />
         </div>
         <ul className={`sidebar-links ${action && "action"}`}>
-          {lists.sort((a, b) =>
-              a?.title.toLowerCase() > b?.title.toLowerCase() ? 1 : -1
-            ).map((value, index) => (
-            <li key={index}>
-              <Link
-                onClick={fnChangeAction}
-                className={`rounded px2 py1 ${
-                  contactId?.toString() === value?.id.toString() && "active"
-                }`}
-                to={`content/${value?.id}`}
-              >
-                {value?.title}
-              </Link>
-            </li>
-          ))}
+          {dataLists.map((value, index) => (
+              <li key={index}>
+                <Link
+                  onClick={fnChangeAction}
+                  className={`rounded px2 py1 ${
+                    contactId?.toString() === value?.id.toString() && "active"
+                  }`}
+                  to={`content/${value?.id}`}
+                >
+                  {value?.title}
+                </Link>
+              </li>
+            ))}
         </ul>
       </div>
     </div>

@@ -4,6 +4,8 @@ const lists = [
     { id: "cm", title: "Comic / Manga" },
     { id: "ed", title: "Education" },
     { id: "tr", title: "Travel" },
+    { id: "ga", title: "Gaming" },
+    // { id: "cc", title: "คำแนะนำ" },
   ];
 
 
@@ -202,6 +204,11 @@ const tech = [
         img: "https://yt3.googleusercontent.com/ytc/AL5GRJXev2NIsDYSbxtF7rhC4IaUr8B6MiGw1B5plnmPug=s176-c-k-c0x00ffffff-no-rj",
         url: "https://www.youtube.com/@BroCodez",
         name: "Bro Code"
+    },
+    {
+        img: "https://yt3.googleusercontent.com/ytc/AL5GRJVTAyqax0AbmlTG7dYf_TG214IRIpVfjI1F7a5w0Q=s176-c-k-c0x00ffffff-no-rj",
+        url: "https://www.youtube.com/@borntodev",
+        name: "BorntoDev"
     },
 ]
 
@@ -547,4 +554,32 @@ const travel = [
     },
 ]
 
-export {lists, tech, movieSpoilers, comic, education, travel }
+const gaming = [
+    {
+        img: "https://yt3.googleusercontent.com/ytc/AL5GRJX67ZFY7ez9NN4pOxU474zQ1lQnZv4KkW35XmHDww=s176-c-k-c0x00ffffff-no-rj",
+        url: "https://www.youtube.com/@Guyngid",
+        name: "กาย หงิด"
+    },
+    {
+        img: "https://yt3.googleusercontent.com/sCm-TfRWlQlEDhZdRz8HWSmKKRQKDdbDn731QlH67Xl1iKgB-B-8eSioJA4a7AJMTSpfsfD1=s176-c-k-c0x00ffffff-no-rj",
+        url: "https://www.youtube.com/@pang3pong",
+        name: "แป้งสามป๋องซาว CH"
+    },
+    {
+        img: "https://yt3.googleusercontent.com/ytc/AL5GRJWPlCU2WA2ljfAnJkL1DxaNIk4lHvzZx8kiyj0Jtg=s176-c-k-c0x00ffffff-no-rj",
+        url: "https://www.youtube.com/@kritngi",
+        name: "กิต งายย"
+    },
+    {
+        img: "https://yt3.googleusercontent.com/ytc/AL5GRJXGZwnxxy_nt4JneOr8NUcqX6a-Lsdu74Jdlg0wmw=s176-c-k-c0x00ffffff-no-rj",
+        url: "https://www.youtube.com/@HEARTROCK",
+        name: "HEARTROCKER"
+    },
+    {
+        img: "https://yt3.googleusercontent.com/t7TpW1MxcZZSUAnYxsieSzmc1ZNvu9F1KGaDhd1n8cAzzDnQqA2UcqjrNH3ToXRR0tvWE1WD=s176-c-k-c0x00ffffff-no-rj",
+        url: "https://www.youtube.com/@chickenv7276",
+        name: "Chicken V"
+    },
+]
+
+export {lists, tech, movieSpoilers, comic, education, travel, gaming }
