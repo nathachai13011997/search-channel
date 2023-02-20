@@ -590,7 +590,7 @@ const story = [
     },
     {
         img: "https://yt3.googleusercontent.com/ytc/AL5GRJUWo5ZNUzVdnjQZOEHGHwqnBiXGvlCBBjyvuf2khA=s176-c-k-c0x00ffffff-no-rj",
-        url: "https://www.youtube.com/@Theghostradio",
+        url: "https://www.youtube.com/channel/UCM246zZ4qNNmFQ2WHnP_CRA",
         name: "TheghostradioOfficial"
     },
     {
