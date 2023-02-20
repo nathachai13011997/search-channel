@@ -1,10 +1,11 @@
 const lists = [
     { id: "tcp", title: "Tech / ComputerProgramming" },
     { id: "ms", title: "Movie Spoilers" },
-    { id: "cm", title: "Comic / Manga" },
+    { id: "cma", title: "Comic / Manga / Anime" },
     { id: "ed", title: "Education" },
     { id: "tr", title: "Travel" },
     { id: "ga", title: "Gaming" },
+    { id: "st", title: "Story" },
     // { id: "cc", title: "คำแนะนำ" },
   ];
 
@@ -385,7 +386,7 @@ const movieSpoilers = [
     },
 ]
 
-const comic = [
+const comicMangaAnime = [
     {
         img: "https://yt3.googleusercontent.com/ytc/AL5GRJWElHKlas1mN_Zjn-VTWdnK0skOosDzCR06oPzu=s176-c-k-c0x00ffffff-no-rj",
         url: "https://www.youtube.com/@ComicWorldDaily",
@@ -471,6 +472,11 @@ const comic = [
         url: "https://www.youtube.com/@ANIDEX_TH",
         name: "Anidex - อนิเดก"
     },
+    {
+        img: "https://yt3.googleusercontent.com/ytc/AL5GRJVKbKG9mteHe0A02mipAhDRTYmNOgVqjfhVN2uW=s176-c-k-c0x00ffffff-no-rj",
+        url: "https://www.youtube.com/channel/UCFx2mOWtegY3rSs3Xf7VTCg",
+        name: "หมอตังค์ Doctor Tang"
+    },
 ]
 
 const education = [
@@ -552,6 +558,11 @@ const travel = [
         url: "https://www.youtube.com/@beersosdiary",
         name: "Beersos Diary"
     },
+    {
+        img: "https://yt3.googleusercontent.com/8U6f_Jkjdrsjq-RacpkiOivBuS1S9h11X4_jSyLPT6TrcOEpMkDQjh9sezvUmGrYpTd3uhUt274=s176-c-k-c0x00ffffff-no-rj",
+        url: "https://www.youtube.com/@theghostontube",
+        name: "The Ghost on Tube"
+    },
 ]
 
 const gaming = [
@@ -582,4 +593,82 @@ const gaming = [
     },
 ]
 
-export {lists, tech, movieSpoilers, comic, education, travel, gaming }
+const story = [
+    {
+        img: "https://yt3.googleusercontent.com/ytc/AL5GRJX1Fp38IyvkWM3UFf5QCD43exAN3dYc6rzEF2lx=s176-c-k-c0x00ffffff-no-rj",
+        url: "https://www.youtube.com/@tangmakkaporn",
+        name: "Tang Makkaporn"
+    },
+    {
+        img: "https://yt3.googleusercontent.com/ytc/AL5GRJUWo5ZNUzVdnjQZOEHGHwqnBiXGvlCBBjyvuf2khA=s176-c-k-c0x00ffffff-no-rj",
+        url: "https://www.youtube.com/@Theghostradio",
+        name: "TheghostradioOfficial"
+    },
+    {
+        img: "https://yt3.googleusercontent.com/Bn22ctk-1wxzDtnZtJzKBJwAfsHBuDH9VJnrsvAPV2EdgwyxAPFnTX0tiecRk9W6jilcJWI5Kg=s176-c-k-c0x00ffffff-no-rj",
+        url: "https://www.youtube.com/channel/UCBIukb3ueDYjGyt3pQBV6Uw",
+        name: "The Ghost Studio"
+    },
+    {
+        img: "https://yt3.googleusercontent.com/Ni9irK44G7RqZ1mq4126QwAzzE45_k-k7V94ZDRHBBkBgX78DWPW84fBCaa_VE-57YAU74L9PcI=s176-c-k-c0x00ffffff-no-rj",
+        url: "https://www.youtube.com/@LaoRuengPhee3D",
+        name: "เล่าเรื่องผี 3D"
+    },
+    {
+        img: "https://yt3.googleusercontent.com/ytc/AL5GRJUny-lYIpH6p_ZIN_78Na1jR2vSKxtDdju0Mu8b=s176-c-k-c0x00ffffff-no-rj",
+        url: "https://www.youtube.com/channel/UCPyB4sz9YfQ5rMpA61iWMsg",
+        name: "เล่าเรื่องผี"
+    },
+    {
+        img: "https://yt3.googleusercontent.com/ytc/AL5GRJVcGF6VbcLX8ah_doZTJfUf-jONa7_RZuNTdzXF=s176-c-k-c0x00ffffff-no-rj",
+        url: "https://www.youtube.com/channel/UCRbVBRzFXcF4WTB8PBFy-Rg",
+        name: "เล่านิทาน"
+    },
+    {
+        img: "https://yt3.googleusercontent.com/ytc/AL5GRJWXZRLC8rXCsCa_Z_VlI9E9ypy5yJ35qvhQkgUJ=s176-c-k-c0x00ffffff-no-rj",
+        url: "https://www.youtube.com/channel/UCwkreQAHeb6mmu36IMAKMsg",
+        name: "เล่านิทาน 3D"
+    },
+    {
+        img: "https://yt3.googleusercontent.com/2uxPv_5wT3YNyzsBkgZ_7XpmhHf9_ySy5a_RZNfD3foV6eKZ4yEC9qPylw2pU69RKZ8GmST-=s176-c-k-c0x00ffffff-no-rj",
+        url: "https://www.youtube.com/@lorndiary",
+        name: "หลอนไดอารี่"
+    },
+    {
+        img: "https://yt3.googleusercontent.com/KfNFFIYYZ9Te0F3nZWyayOWabQy13TP5YavOBx5fstgD6zOI2LnasIviJ7mV8lSYApD7VK4-=s176-c-k-c0x00ffffff-no-rj",
+        url: "https://www.youtube.com/@Twilightland",
+        name: "ดินแดนสนธยา"
+    },
+    {
+        img: "https://yt3.googleusercontent.com/JY6h34p_9RHDC3parWm2v2bV_2imdOsuI0Uif_Uv1BlsrCk_bIJAxjccrLO7UWXkVEmoozwIgA=s176-c-k-c0x00ffffff-no-rj",
+        url: "https://www.youtube.com/@user-vs3jz4od1f",
+        name: "เกียร์ 8 โกสต์"
+    },
+    {
+        img: "https://yt3.googleusercontent.com/ytc/AL5GRJU67-r5_KGprCoX74FDJf8uoXEPAcMZhebNJZ8p=s176-c-k-c0x00ffffff-no-rj",
+        url: "https://www.youtube.com/@user-ff2ow9uq2b",
+        name: "ไม่หลอนไม่เล่า"
+    },
+    {
+        img: "https://yt3.googleusercontent.com/ytc/AL5GRJUEhTSJ5Mj7SjEdEFkzUAawQi6m7JkUSV0NVGTYjQ=s176-c-k-c0x00ffffff-no-rj",
+        url: "https://www.youtube.com/@FPongpitak",
+        name: "F Pongpitak"
+    },
+    {
+        img: "https://yt3.googleusercontent.com/Yzp17II1jzQq3knETe9wyWu9x2lNGmg7nuJ2RyVsJqLa2UPsJAm_znqzXAQLXUE--qkKSSpmZ20=s176-c-k-c0x00ffffff-no-rj",
+        url: "https://www.youtube.com/@kongkapan",
+        name: "หนุ่มคงกระพัน official"
+    },
+    {
+        img: "https://yt3.googleusercontent.com/BNHSaoToEbipOmvnFy7QfCBGZGqZIuMNGtNL2tULGCqDJPfGmW7wkW0ZlqXkPvLNOEOJr71g=s176-c-k-c0x00ffffff-no-rj",
+        url: "https://www.youtube.com/@Lhornspecial",
+        name: "หลอนสเปเชียล"
+    },
+    {
+        img: "https://yt3.googleusercontent.com/ytc/AL5GRJVlag2VdIymg21Mmpk4qjs1myxErio59OWqVQMItA=s176-c-k-c0x00ffffff-no-rj",
+        url: "https://www.youtube.com/@nuenglc",
+        name: "nuenglc"
+    },
+]
+
+export {lists, tech, movieSpoilers, comicMangaAnime, education, travel, gaming, story }

@@ -4,10 +4,11 @@ import {
   lists,
   tech,
   movieSpoilers,
-  comic,
+  comicMangaAnime,
   education,
   travel,
   gaming,
+  story,
 } from "../../data/channel";
 import "./Contents.sass";
 import { BsYoutube } from "react-icons/bs";
@@ -19,12 +20,12 @@ const showTitle = (contactId) => {
 
 const showContent = (contactId, name) => {
   if (name?.length >= 3) {
-    return comic
+    return comicMangaAnime
       .concat(
         movieSpoilers,
         tech,
         movieSpoilers,
-        comic,
+        comicMangaAnime,
         education,
         travel,
         gaming,
@@ -36,14 +37,16 @@ const showContent = (contactId, name) => {
     return tech;
   } else if (contactId?.toString() === "ms") {
     return movieSpoilers;
-  } else if (contactId?.toString() === "cm") {
-    return comic;
+  } else if (contactId?.toString() === "cma") {
+    return comicMangaAnime;
   } else if (contactId?.toString() === "ed") {
     return education;
   } else if (contactId?.toString() === "tr") {
     return travel;
   } else if (contactId?.toString() === "ga") {
     return gaming;
+  } else if (contactId?.toString() === "st") {
+    return story;
   }
   return [];
 };
