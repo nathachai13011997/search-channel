@@ -9,6 +9,7 @@ import {
   travel,
   gaming,
   story,
+  general,
 } from "../../data/channel";
 import "./Contents.sass";
 import { BsYoutube } from "react-icons/bs";
@@ -29,6 +30,8 @@ const showContent = (contactId, name) => {
         education,
         travel,
         gaming,
+        story,
+        general
       )
       .filter((v) => v?.name?.toUpperCase().includes(name.toUpperCase()));
   }
@@ -47,6 +50,8 @@ const showContent = (contactId, name) => {
     return gaming;
   } else if (contactId?.toString() === "st") {
     return story;
+  }else if (contactId?.toString() === "ge") {
+    return general;
   }
   return [];
 };

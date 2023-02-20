@@ -690,4 +690,4 @@ const lists = [
     // { id: "cc", title: "คำแนะนำ" },
   ];
 
-export {lists, tech, movieSpoilers, comicMangaAnime, education, travel, gaming, story }
+export {lists, tech, movieSpoilers, comicMangaAnime, education, travel, gaming, story, general }
