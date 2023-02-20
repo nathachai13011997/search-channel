@@ -20,7 +20,15 @@ const showTitle = (contactId) => {
 const showContent = (contactId, name) => {
   if (name?.length >= 3) {
     return comic
-      .concat(movieSpoilers, tech)
+      .concat(
+        movieSpoilers,
+        tech,
+        movieSpoilers,
+        comic,
+        education,
+        travel,
+        gaming,
+      )
       .filter((v) => v?.name?.toUpperCase().includes(name.toUpperCase()));
   }
 
