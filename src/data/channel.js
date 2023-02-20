@@ -670,6 +670,14 @@ const story = [
     },
 ]
 
+const general = [
+    {
+        img: "https://yt3.googleusercontent.com/ytc/AL5GRJWjNvtW4siJWZDd3PxQzNBn-4ZgOgHZFDSNpAEBiA=s176-c-k-c0x00ffffff-no-rj",
+        url: "https://www.youtube.com/@GoodDayOfficialChannel",
+        name: "GoodDayOfficial"
+    },
+]
+
 const lists = [
     { id: "tcp", title: "Tech / ComputerProgramming", data: tech},
     { id: "ms", title: "Movie Spoilers", data: movieSpoilers},
@@ -678,6 +686,7 @@ const lists = [
     { id: "tr", title: "Travel", data: travel},
     { id: "ga", title: "Gaming", data: gaming},
     { id: "st", title: "Story", data: story},
+    { id: "ge", title: "General", data: general},
     // { id: "cc", title: "คำแนะนำ" },
   ];
 
