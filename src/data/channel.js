@@ -1,14 +1,3 @@
-const lists = [
-    { id: "tcp", title: "Tech / ComputerProgramming" },
-    { id: "ms", title: "Movie Spoilers" },
-    { id: "cma", title: "Comic / Manga / Anime" },
-    { id: "ed", title: "Education" },
-    { id: "tr", title: "Travel" },
-    { id: "ga", title: "Gaming" },
-    { id: "st", title: "Story" },
-    // { id: "cc", title: "คำแนะนำ" },
-  ];
-
 
 const tech = [
     {
@@ -670,5 +659,16 @@ const story = [
         name: "nuenglc"
     },
 ]
+
+const lists = [
+    { id: "tcp", title: "Tech / ComputerProgramming", data: tech},
+    { id: "ms", title: "Movie Spoilers", data: movieSpoilers},
+    { id: "cma", title: "Comic / Manga / Anime", data: comicMangaAnime},
+    { id: "ed", title: "Education", data: education},
+    { id: "tr", title: "Travel", data: travel},
+    { id: "ga", title: "Gaming", data: gaming},
+    { id: "st", title: "Story", data: story},
+    // { id: "cc", title: "คำแนะนำ" },
+  ];
 
 export {lists, tech, movieSpoilers, comicMangaAnime, education, travel, gaming, story }

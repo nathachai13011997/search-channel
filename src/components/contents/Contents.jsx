@@ -55,6 +55,8 @@ const test = [];
 
 const Contents = () => {
   const { contactId, name } = useParams();
+  console.log('name: ', name);
+  console.log('contactId: ', contactId);
   const dataInput = useRef(null);
   // const [dataAdvice, setDataAdvice] = useState([])
   const dataLists = showContent(contactId, name).sort((a, b) =>
@@ -74,17 +76,19 @@ const Contents = () => {
         {contactId === "cc" && (
           <>
             <p className="main">
-              อยากให้ search-channel เพิ่มหรอปรับแก้ไขอะไร
-              หรอจะแนะนำช่องยูทูปได้เลยนะครับ
+              อยากให้ Search Channel เพิ่มหรอปรับแก้ไขอะไร
+              หรอจะแนะนำช่องยูทูปไหนที่หน้าสนใจ พิมมาได้เลยนะครับ
             </p>
-            <div style={{ display: "flex" }}>
-              <input
+            <div >
+              <textarea
+                cols="50"
+                rows="4"
                 className="px2 py1"
                 placeholder="คำแนะนำ"
                 ref={dataInput}
               />
-              <button onClick={handleSubmit}>submit</button>
             </div>
+            <button style={{ padding: "5px" }} onClick={handleSubmit}>submit</button>
             {test.map((v) => (
               <p>{v}</p>
             ))}
