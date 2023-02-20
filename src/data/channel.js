@@ -658,6 +658,16 @@ const story = [
         url: "https://www.youtube.com/@nuenglc",
         name: "nuenglc"
     },
+    {
+        img: "https://yt3.googleusercontent.com/ytc/AL5GRJUSmYkx--MJbJ-9KsoZeqEMuMnrj8Y3WmE83f0Ejg=s176-c-k-c0x00ffffff-no-rj",
+        url: "https://www.youtube.com/@user-ei9bt4uz3z",
+        name: "หลอน ก่อน นอน"
+    },
+    {
+        img: "https://yt3.googleusercontent.com/GX-WULwkNkrXRPqr5Vl31Gfs6pCCOPzTw38c3V_qIgqWhU-cux2Tkri6Fs2fM1R95NmX-TuF4Q=s176-c-k-c0x00ffffff-no-rj",
+        url: "https://www.youtube.com/@GoosebumpsStories",
+        name: "Goosebumps Stories"
+    },
 ]
 
 const lists = [
