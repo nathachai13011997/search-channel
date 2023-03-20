@@ -677,7 +677,7 @@ const general = [
         name: "GoodDayOfficial"
     },
     {
-        img: "https://yt3.googleusercontent.com/ytc/AL5GRJWjNvtW4siJWZDd3PxQzNBn-4ZgOgHZFDSNpAEBiA=s176-c-k-c0x00ffffff-no-rj",
+        img: "https://yt3.googleusercontent.com/ytc/AL5GRJUkqHAaV3sO4DRWAF7STjycYE8Bi3oZw8rmecr_ig=s176-c-k-c0x00ffffff-no-rj",
         url: "https://www.youtube.com/@nickynachat",
         name: "Nickynachat"
     },
