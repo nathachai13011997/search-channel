@@ -364,7 +364,7 @@ const movieSpoilers = [
         name: "นั่งยาว : longsit"
     },
     {
-        img: "https://yt3.googleusercontent.com/HyHHtY1vyYjDc-0sLZEuxZJEgOFOOIGi5lyczP7g3FsLv96V45jUiWClgtSLsq8CoKZUsf-EvA=s176-c-k-c0x00ffffff-no-rj",
+        img: "https://yt3.googleusercontent.com/90ucNOaT5-zGezaNPS225BGNQYEp8IZMsLUe6WzOhVyz4ZFS_zgku_2ToXkEpPyPv2CJWeaNiA=s176-c-k-c0x00ffffff-no-rj",
         url: "https://www.youtube.com/@jordoror",
         name: "จดอ. JUSTดูIT."
     },
@@ -576,7 +576,7 @@ const gaming = [
         name: "HEARTROCKER"
     },
     {
-        img: "https://yt3.googleusercontent.com/t7TpW1MxcZZSUAnYxsieSzmc1ZNvu9F1KGaDhd1n8cAzzDnQqA2UcqjrNH3ToXRR0tvWE1WD=s176-c-k-c0x00ffffff-no-rj",
+        img: "https://yt3.googleusercontent.com/Dxgt7K0xGRT8WVIsbKKqUAAo56Bkt3bpMNjLeLg9Balsyr5bNOfLLweeYeVH0vgiEalQ2aOEewA=s176-c-k-c0x00ffffff-no-rj",
         url: "https://www.youtube.com/@chickenv7276",
         name: "Chicken V"
     },
