@@ -676,6 +676,11 @@ const general = [
         url: "https://www.youtube.com/@GoodDayOfficialChannel",
         name: "GoodDayOfficial"
     },
+    {
+        img: "https://yt3.googleusercontent.com/ytc/AL5GRJWjNvtW4siJWZDd3PxQzNBn-4ZgOgHZFDSNpAEBiA=s176-c-k-c0x00ffffff-no-rj",
+        url: "https://www.youtube.com/@nickynachat",
+        name: "Nickynachat"
+    },
 ]
 
 const lists = [
@@ -687,7 +692,7 @@ const lists = [
     { id: "ga", title: "Gaming", data: gaming},
     { id: "st", title: "Story", data: story},
     { id: "ge", title: "General", data: general},
-    // { id: "cc", title: "คำแนะนำ" },
+    { id: "cc", title: "คำแนะนำ" },
   ];
 
 export {lists, tech, movieSpoilers, comicMangaAnime, education, travel, gaming, story, general }

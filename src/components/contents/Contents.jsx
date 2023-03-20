@@ -80,7 +80,8 @@ const Contents = () => {
         <h1 className="main">{showTitle(contactId) || "🔍 Search"}</h1>
         {contactId === "cc" && (
           <>
-            <p className="main">
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScDL2w9b9rumDBGL0cI-t-sciwwTZh2WkLTwH-33NEeRKCY_w/viewform?embedded=true" width="640" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            {/* <p className="main">
               อยากให้ Search Channel เพิ่มหรอปรับแก้ไขอะไร
               หรอจะแนะนำช่องยูทูปไหนที่หน้าสนใจ พิมมาได้เลยนะครับ
             </p>
@@ -96,7 +97,7 @@ const Contents = () => {
             <button style={{ padding: "5px" }} onClick={handleSubmit}>submit</button>
             {test.map((v) => (
               <p>{v}</p>
-            ))}
+            ))} */}
           </>
         )}
         {(contactId === "search" || name) && (
